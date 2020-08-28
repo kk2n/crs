@@ -1,0 +1,24 @@
+.sort-item {
+  cursor: pointer;
+  user-select: none;
+
+  .sort-up,
+  .sort-down {
+    position: relative;
+    font-size: 12px;
+  }
+
+  .sort-up {
+    top: -4px;
+    left: 2px;
+  }
+
+  .sort-down {
+    left: -10px;
+    top: 4px;
+  }
+
+  .sort-highlight {
+    color: #2290ff;
+  }
+}

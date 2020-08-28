@@ -1,0 +1,33 @@
+.dynamicRow {
+  margin-top: 10px;
+  .rowBase {
+    display: flex;
+    align-items: center;
+    .itemBox {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-right: 10px;
+      min-width: 180px;
+      align-items: center;
+
+      .valueBox {
+        width: 140px;
+      }
+    }
+  }
+  .rowOther {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    line-height: 45px;
+    .discountBox {
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+      .valueBox {
+        width: 180px;
+      }
+    }
+  }
+}

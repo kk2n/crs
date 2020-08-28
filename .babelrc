@@ -1,0 +1,21 @@
+{
+  "presets": ["reactenv"],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "react-hot-loader/babel",
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "legacy": true
+      }
+    ],
+    [
+      "import",
+      {
+        "libraryName": "ymcmp",
+        "style": true,
+        "camel2DashComponentName": false
+      }
+    ]
+  ]
+}

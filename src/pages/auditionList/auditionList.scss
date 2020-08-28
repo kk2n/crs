@@ -1,0 +1,148 @@
+.auditionListWrap {
+  padding: 20px;
+  .myleads-table {
+    width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    .st-zhiti {
+      cursor: pointer;
+      color: #2290ff;
+      line-height: 32px;
+    }
+  }
+  .myleads-tag {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 4px;
+    i {
+      font-style: normal;
+    }
+    .ke-mu {
+      color: #ee57a5;
+      padding: 0 6px;
+      float: left;
+      background-color: #fff0f6;
+      border-radius: 4px;
+      border: 1px solid #ffadd2;
+      margin-right: 4px;
+    }
+    .grade {
+      color: #90d772;
+      padding: 0 6px;
+      float: left;
+      background-color: #f6ffed;
+      border-radius: 4px;
+      border: 1px solid #b7eb8f;
+      margin-right: 4px;
+    }
+    .mgm {
+      color: #fa6e41;
+      padding: 0 6px;
+      float: left;
+      background-color: #fff2e8;
+      border-radius: 4px;
+      border: 1px solid #ffbb96;
+      margin-right: 4px;
+    }
+    .fu {
+      color: #814ad5;
+      padding: 0 6px;
+      float: left;
+      background-color: #f9f0ff;
+      border-radius: 4px;
+      border: 1px solid #d3adf7;
+      margin-right: 4px;
+      &.manse {
+        background-color: #814ad5;
+        border: 1px solid #814ad5;
+        color: #f9f0ff;
+      }
+    }
+  }
+}
+
+.tab-table {
+  table {
+    td,
+    th {
+      padding: 8px;
+    }
+  }
+  .sttaps-nav {
+    font-size: 15px;
+    height: auto;
+    overflow: hidden;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 20px;
+    .tab {
+      width: 88px;
+      height: 62px;
+      line-height: 62px;
+      text-align: center;
+      display: block;
+      float: left;
+      cursor: pointer;
+    }
+    .ant-btn {
+      width: 100px;
+      float: right;
+      margin-top: 12px;
+      height: 38px;
+      font-size: 16px;
+      line-height: 18px;
+      span {
+        pointer-events: none;
+        display: inline-block;
+      }
+    }
+  }
+  .st-ypsj {
+    line-height: 24px;
+    &.red {
+      color: #ff0000;
+    }
+  }
+  .tab {
+    &.onIt {
+      color: #2290ff;
+      border-bottom: 2px solid #2290ff;
+    }
+  }
+  .grey {
+    color: #999;
+  }
+}
+
+.addStepsModal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.detailModal {
+  width: 80% !important;
+  .ant-modal-content {
+    overflow: hidden;
+    height: auto;
+    .ant-modal-body {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+.detailModal2 {
+  width: 80% !important;
+  .ant-modal-content {
+    overflow: hidden;
+    height: auto;
+    .ant-modal-body {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

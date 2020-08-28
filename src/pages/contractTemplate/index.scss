@@ -1,0 +1,52 @@
+.contractTemplate {
+  .dy {
+    padding-left: 28px;
+    background: url('./46.png') left center no-repeat;
+  }
+  .qy {
+    padding-left: 28px;
+    background: url('./45.png') left center no-repeat;
+  }
+  .OptionsWrap {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  .filter {
+    padding: 20px 0 20px 20px;
+    height: auto;
+    overflow: hidden;
+  }
+}
+.tips_kk {
+  line-height: initial;
+  padding: 0;
+  p {
+    color: #aaa;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+}
+.c-contract-preview {
+  line-height: initial;
+  border: solid 1px #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  min-height: 300px;
+  width: 680px;
+  &.yulan {
+    width: auto;
+    min-height: 600px;
+  }
+  .preview-table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 8px 0;
+
+    td {
+      border: 1px solid #ccc;
+      height: 18px;
+      text-align: center;
+      padding: 2px 4px;
+    }
+  }
+}

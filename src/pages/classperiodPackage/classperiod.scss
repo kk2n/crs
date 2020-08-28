@@ -1,0 +1,30 @@
+.searchBox {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 10px;
+  justify-content: space-between;
+
+  .leftBox {
+    display: flex;
+
+    .selectBox {
+      margin-left: 30px;
+    }
+  }
+
+  .rightBox {
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.selectBox {
+  display: flex;
+  // width: 180px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.modelSelectBox {
+  margin-left: 5px;
+}

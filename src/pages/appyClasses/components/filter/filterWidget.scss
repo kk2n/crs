@@ -1,0 +1,35 @@
+.myStudent-filterWidget-warp {
+  // margin-top: 10px;
+  .ant-form-item {
+    margin-bottom: 0px;
+    min-width: 120px;
+    margin-right: 10px;
+  }
+  .base-filter {
+    display: flex;
+    justify-content: space-between;
+    min-height: 45px;
+    align-items: center;
+    .base-left {
+      display: flex;
+      .submit {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+  }
+  .more-filter {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .item-warp {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    min-height: 45px;
+    .select-box {
+      min-width: 120px;
+    }
+  }
+}

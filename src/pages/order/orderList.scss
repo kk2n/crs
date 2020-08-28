@@ -1,0 +1,92 @@
+.orderList {
+  .ant-table-body {
+    border-top: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+  }
+  .top {
+    //border: 1px solid #ededed;
+    padding: 10px;
+    //margin-top: 10px;
+  }
+  .ant-pagination {
+    width: 100%;
+  }
+  .modal {
+    padding: 100px;
+    .modal-top {
+      padding: 10px 30px;
+    }
+  }
+}
+
+.dingdanTable {
+  margin-top: 10px;
+  .ant-table-pagination.ant-pagination {
+    text-align: right;
+  }
+}
+
+.lxr-yangs {
+  ul {
+    overflow: hidden;
+    li {
+      float: left;
+      line-height: 2;
+      &.left {
+        width: 100px;
+      }
+    }
+  }
+}
+
+.hanls-css {
+  overflow: hidden;
+  height: auto;
+  ul {
+    width: 50%;
+    overflow: hidden;
+    float: left;
+    li {
+      float: left;
+      line-height: 2;
+      &.left {
+        width: 100px;
+      }
+    }
+  }
+}
+
+.noLabel {
+  .ant-form-item-label > label {
+    color: #fff;
+  }
+}
+
+.caichu,
+.caichu1,
+.caichu2,
+.d-cai {
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
+
+.caichu {
+  width: 50%;
+  // float: left;
+}
+
+.caichu1 {
+  width: 33.3%;
+  // float: left;
+}
+
+.caichu2 {
+  width: 66.7%;
+  // float: left;
+}
+
+.d-cai {
+  width: 33%;
+  // float: left;
+}

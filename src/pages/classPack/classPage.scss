@@ -1,0 +1,15 @@
+.iframeWH {
+  height: calc(100vh - 200px);
+  width: 100%;
+}
+.class-pack {
+  padding: 20px;
+  .dy {
+    padding-left: 28px;
+    background: url('./46.png') left center no-repeat;
+  }
+  .qy {
+    padding-left: 28px;
+    background: url('./45.png') left center no-repeat;
+  }
+}

@@ -1,0 +1,55 @@
+.change_modal {
+  max-height: 600px;
+  overflow-y: scroll;
+  &_left {
+    float: left;
+    margin-right: 60px;
+    max-width: 320px;
+    // width: 300px;
+  }
+  &_right {
+    float: left;
+    width: 550px;
+  }
+}
+.classInfo_container {
+  .class_Info {
+    padding-left: 17px;
+    line-height: 17px;
+    margin: 16px 0;
+    height: 100px;
+    p {
+      max-width: 300px;
+      line-height: 25px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+  .rightFilfter {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 0px;
+    .select-box {
+      width: 150px;
+      margin-right: 10px;
+    }
+    .btnSubmit {
+      margin-left: 10px;
+    }
+  }
+}
+.choose_container {
+  .filter_option {
+    margin: 20px 0;
+  }
+  .ant-row {
+    margin-bottom: 10px;
+  }
+  .operate_add {
+    text-align: center;
+  }
+  button {
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,102 @@
+.login-page {
+  height: 100vh;
+  background: #fff;
+  background-size: 100% auto;
+
+  .login-header {
+    height: 90px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+
+    .logo-login {
+      margin: 16px 30px;
+    }
+  }
+
+  .footer-login {
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    border-top: 1px solid #ddd;
+    bottom: 0;
+    background-color: #fff;
+    line-height: 90px;
+    text-align: center;
+    font-size: 15px;
+  }
+}
+
+.login {
+  border: 1px solid #eeeeee;
+  margin: 0 auto;
+  width: 368px;
+  height: auto;
+  padding: 30px 30px 30px;
+  border-radius: 8px;
+  position: absolute;
+  right: 36%;
+  top: 26%;
+
+  .login-title {
+    font-size: 20px;
+    line-height: 34px;
+    color: #fff;
+  }
+
+  .login-form {
+    max-width: 300px;
+    margin-top: 20px;
+
+    .verify-btn {
+      width: 100%;
+      height: 56px;
+      padding: 0;
+    }
+  }
+
+  .login-form-forgot {
+    float: right;
+  }
+
+  .ant-form-item label {
+    float: left;
+  }
+
+  .ant-input {
+    height: 56px;
+    line-height: 56px;
+    font-size: 16px;
+  }
+
+  .login-form-button {
+    width: 100%;
+    // margin-top: 20px;
+    line-height: 50px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .login-err {
+    position: absolute;
+    padding-left: 20px;
+    z-index: 10;
+    font-size: 14px;
+    border: 1px solid #f65634;
+    top: 26px;
+    line-height: 40px;
+    width: 300px;
+    background: #ffe5e4;
+    border-radius: 3px;
+    color: #333;
+  }
+
+  .switch-login-type {
+    a {
+      color: #000;
+
+      &:hover {
+        color: #f80;
+      }
+    }
+  }
+}

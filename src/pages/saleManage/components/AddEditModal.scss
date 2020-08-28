@@ -1,0 +1,16 @@
+// 新增/编辑弹窗
+.addEditModal {
+    .btn {
+        text-align: center;
+    }
+    .ant-col-18 {
+        .ant-form-item-children {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .ant-checkbox-wrapper {
+                text-align: right;
+            }
+        }
+    }
+}

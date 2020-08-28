@@ -1,0 +1,34 @@
+//antd 样式修改
+.pagination-css {
+  margin-top: 20px;
+}
+body .ant-table-thead > tr > th {
+  padding: 12px 8px;
+  overflow-wrap: break-word;
+}
+body .ant-table-tbody > tr > td {
+  padding: 8px 8px;
+  overflow-wrap: break-word;
+}
+body .ant-table-body {
+  //border-top: 1px solid #ededed;
+  //border-right: 1px solid #ededed;
+  //border-left: 1px solid #ededed;
+}
+body .ant-table-placeholder {
+  border-right: 1px solid #ededed;
+  border-left: 1px solid #ededed;
+}
+.ant-input-group {
+  width: 90%;
+}
+.detailModal2 {
+  width: 80% !important;
+  .ant-modal-content {
+    overflow: hidden;
+    .ant-modal-body {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

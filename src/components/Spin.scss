@@ -1,0 +1,18 @@
+.custom-spin {
+  border-radius: 10px;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .ant-spin-dot {
+    width: initial;
+    height: initial;
+  }
+
+  .ant-spin-text {
+    margin-top: 10px;
+    color: #333;
+  }
+}
