@@ -2576,6 +2576,11 @@ chalk@^4.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
+charenc@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.npm.taobao.org/charenc/download/charenc-0.0.2.tgz#c0a1d2f3a7092e03774bfa83f14c0fc5790a8667"
+  integrity sha1-wKHS86cJLgN3S/qD8UwPxXkKhmc=
+
 chokidar@^2.1.8:
   version "2.1.8"
   resolved "https://registry.npm.taobao.org/chokidar/download/chokidar-2.1.8.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fchokidar%2Fdownload%2Fchokidar-2.1.8.tgz#804b3a7b6a99358c3c5c61e71d8728f041cff917"
@@ -3186,6 +3191,11 @@ cross-spawn@^7.0.2:
     path-key "^3.1.0"
     shebang-command "^2.0.0"
     which "^2.0.1"
+
+crypt@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.npm.taobao.org/crypt/download/crypt-0.0.2.tgz#88d7ff7ec0dfb86f713dc87bbb42d044d3e6c41b"
+  integrity sha1-iNf/fsDfuG9xPch7u0LQRNPmxBs=
 
 crypto-browserify@^3.11.0:
   version "3.12.0"
@@ -4086,9 +4096,10 @@ eslint-config-prettier@6.11.0:
   dependencies:
     get-stdin "^6.0.0"
 
-"eslint-config-ymeslint@ssh://git@www.yimigit.com:22876/yimi_fe/corelib/ymEslint.git":
+eslint-config-ymeslint@^1.0.0:
   version "1.0.0"
-  resolved "ssh://git@www.yimigit.com:22876/yimi_fe/corelib/ymEslint.git#453458273afa63271f23c999bce0317e8eae3985"
+  resolved "https://registry.npm.taobao.org/eslint-config-ymeslint/download/eslint-config-ymeslint-1.0.0.tgz#a700f6c54f6eafb9675857fb8bb399f4080b5fef"
+  integrity sha1-pwD2xU9ur7lnWFf7i7OZ9AgLX+8=
 
 eslint-loader@4.0.2:
   version "4.0.2"
@@ -5687,7 +5698,7 @@ is-binary-path@^1.0.0:
   dependencies:
     binary-extensions "^1.0.0"
 
-is-buffer@^1.1.5:
+is-buffer@^1.1.5, is-buffer@~1.1.6:
   version "1.1.6"
   resolved "https://registry.npm.taobao.org/is-buffer/download/is-buffer-1.1.6.tgz?cache=0&sync_timestamp=1588707106955&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fis-buffer%2Fdownload%2Fis-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
   integrity sha1-76ouqdqg16suoTqXsritUf776L4=
@@ -6579,6 +6590,15 @@ md5.js@^1.3.4:
     inherits "^2.0.1"
     safe-buffer "^5.1.2"
 
+md5@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.npm.taobao.org/md5/download/md5-2.3.0.tgz?cache=0&sync_timestamp=1596362680344&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmd5%2Fdownload%2Fmd5-2.3.0.tgz#c3da9a6aae3a30b46b7b0c349b87b110dc3bda4f"
+  integrity sha1-w9qaaq46MLRreww0m4exENw72k8=
+  dependencies:
+    charenc "0.0.2"
+    crypt "0.0.2"
+    is-buffer "~1.1.6"
+
 mdn-data@2.0.4:
   version "2.0.4"
   resolved "https://registry.npm.taobao.org/mdn-data/download/mdn-data-2.0.4.tgz#699b3c38ac6f1d728091a64650b65d388502fd5b"
@@ -6842,14 +6862,6 @@ mkdirp@^1.0.3, mkdirp@^1.0.4:
   version "1.0.4"
   resolved "https://registry.npm.taobao.org/mkdirp/download/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha1-PrXtYmInVteaXw4qIh3+utdcL34=
-
-"mockServer@ssh://git@www.yimigit.com:22876/yimi_fe/corelib/mockServer.git":
-  version "1.0.5"
-  resolved "ssh://git@www.yimigit.com:22876/yimi_fe/corelib/mockServer.git#a0b13916dc938ef27516ab08039e6d8ec75e9b67"
-  dependencies:
-    json-server "^0.14.0"
-    lodash "^4.17.15"
-    mockjs "^1.0.1-beta3"
 
 mockjs@^1.0.1-beta3:
   version "1.1.0"
@@ -7174,11 +7186,6 @@ normalize-url@^3.0.0:
   version "3.3.0"
   resolved "https://registry.npm.taobao.org/normalize-url/download/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
   integrity sha1-suHE3E98bVd0PfczpPWXjRhlBVk=
-
-normalize.css@^8.0.0:
-  version "8.0.1"
-  resolved "https://registry.npm.taobao.org/normalize.css/download/normalize.css-8.0.1.tgz#9b98a208738b9cc2634caacbc42d131c97487bf3"
-  integrity sha1-m5iiCHOLnMJjTKrLxC0THJdIe/M=
 
 npm-run-path@^2.0.0:
   version "2.0.2"
@@ -11696,9 +11703,10 @@ yargs@^13.2.4, yargs@^13.3.2:
     y18n "^4.0.0"
     yargs-parser "^13.1.2"
 
-"ymcmp@ssh://git@www.yimigit.com:22876/yimi_fe/corelib/ymCmp.git":
-  version "0.0.8"
-  resolved "ssh://git@www.yimigit.com:22876/yimi_fe/corelib/ymCmp.git#19ba4f6ef254797399c2ba812373852136835dac"
+ymcmp@^1.0.1:
+  version "1.0.3"
+  resolved "https://registry.npm.taobao.org/ymcmp/download/ymcmp-1.0.3.tgz#662aabd98665efa4f41dd522b1ac7d2e05b72e2b"
+  integrity sha1-Ziqr2YZl76T0HdUisax9LgW3Lis=
   dependencies:
     "@babel/plugin-proposal-export-default-from" "^7.5.2"
     antd "^3.20.6"
@@ -11717,9 +11725,10 @@ yargs@^13.2.4, yargs@^13.3.2:
     redux-devtools-extension "^2.13.8"
     underscore "^1.9.1"
 
-"ymcore@ssh://git@www.yimigit.com:22876/yimi_fe/corelib/ymCore.git":
-  version "1.0.5"
-  resolved "ssh://git@www.yimigit.com:22876/yimi_fe/corelib/ymCore.git#8e20d364945293a87ae2e957f1f4114b2d1b8096"
+ymcore@^1.0.5:
+  version "1.0.7"
+  resolved "https://registry.npm.taobao.org/ymcore/download/ymcore-1.0.7.tgz#81f4b85ed760fd2c7f0afea0a246875d4745bcd3"
+  integrity sha1-gfS4Xtdg/Sx/Cv6gokaHXUdFvNM=
   dependencies:
     axios "^0.18.0"
     js-cookie "^2.2.0"
@@ -11733,3 +11742,12 @@ yargs@^13.2.4, yargs@^13.3.2:
     rollup-plugin-postcss "^2.0.3"
     underscore "^1.9.1"
     url "^0.11.0"
+
+ymmockserver@^1.0.5:
+  version "1.0.7"
+  resolved "https://registry.npm.taobao.org/ymmockserver/download/ymmockserver-1.0.7.tgz#902355d12694c54eb4189905fef65d9e0e507b65"
+  integrity sha1-kCNV0SaUxU60GJkF/vZdng5Qe2U=
+  dependencies:
+    json-server "^0.14.0"
+    lodash "^4.17.15"
+    mockjs "^1.0.1-beta3"
