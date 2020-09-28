@@ -2,8 +2,8 @@
 export default [
   ...require('./demo2').default,
   ...require('./home').default,
-  //课时包管理
-  ...require('./classPack').default,
+
+  ...require('./order').default,
   //表报，包含通话时长表报
   ...require('./report').default,
   //佣金管理
