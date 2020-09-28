@@ -2,7 +2,6 @@
 export default [
   ...require('./demo2').default,
   ...require('./home').default,
-
   ...require('./order').default,
   //表报，包含通话时长表报
   ...require('./report').default,

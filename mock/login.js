@@ -38,17 +38,9 @@ module.exports = {
         id: 211630,
         name: 'CRS',
         icon: null,
-        url: '/crs/',
+        url: '/crm/',
         sys: 'CRS',
         menuList: [
-          {
-            id: 211627,
-            name: '订单明细（一对一）',
-            icon: null,
-            url: '/crm/orderList',
-            sys: 'CRS',
-            childMenuList: []
-          },
           {
             id: 211627,
             name: '佣金管理',
