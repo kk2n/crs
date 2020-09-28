@@ -1,5 +1,5 @@
 const { port } = require('yargs').argv
-const MockServer = require('mockServer')
+const MockServer = require('ymmockserver')
 const { join } = require('path')
 const mockServer = new MockServer({
   dir: `${join(__dirname)}/mock`,
