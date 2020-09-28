@@ -48,6 +48,14 @@ module.exports = {
             url: '/crm/commissionManage',
             sys: 'CRS',
             childMenuList: []
+          },
+          {
+            id: 211627,
+            name: '合同模版',
+            icon: null,
+            url: '/crm/contractTemplate',
+            sys: 'CRS',
+            childMenuList: []
           }
         ]
       },
